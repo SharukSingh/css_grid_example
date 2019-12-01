@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-family: Helvetica;
+	font-weight: 300;
+	text-align: center;
+	margin: 20px 0;
+}
+
+img {
+	height: 300px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
